@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta página está referida al aprendizaje de HTML5">
+    <title>Repasando HTML - CIRO</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <h1 class="estilo-titulo-principal" id="inicio">Repasando HTML en profundidad</h1>
+    <ul>
+        <li><a href="index.html#encabezados">Tipos de encabezado</a></li>
+        <li><a href="index.html#texto-basico">Etiquetas de texto</a></li>
+        <li><a href="index.html#imagenes">Imágenes</a></li>
+        <li><a href="index.html#enlaces">Enlaces</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href="index.html#enlaces-internos">Enlaces internos</a></li>
+        <li><a href="index.html#enlaces-especiales">Enlaces especiales</a></li>
+        <li><a href="index.html#enlaces-interactivos">Enlaces interactivos</a></li>
+    </ul>
+    <hr>
+    <h2 id="encabezados">Tipos de encabezado</h2>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <hr>
+    <h2 id="texto-basico">Etiquetas de texto</h2>
+    <p>
+        palabras en: <b>Negrita</b>, <i>Cursiva</i>, <u>Subrayado</u>, <mark>Texto resaltado</mark>
+    </p><br>
+    <a href="index.html#inicio">Inicio</a>
+    <hr><!--Provoca un salto de línea y una línea-->
+    <h2 id="imagenes">Agregando imágenes</h2>
+    <img src="IMG/imagen1.webp" alt="Mundo tecnológico" width="30%">
+    <img src="IMG/imagen2.jpg" alt="Mundo tecnológico 2" class="estilo-img" width="50%">
+    <figure>
+        <figcaption>Un mundo en constante movimiento.</figcaption>
+    </figure>
+    <a href="index.html#inicio">Inicio</a>
+    <hr>
+    <h2 id="enlaces">Enlaces</h2>
+    <a href="nuevo-doc.html">Ir al nuevo doc</a><br><br>
+    <br><br><br>
+    <hr>
+    <h2 id="enlaces-internos">Enlaces internos</h2>
+    <a href="https://web.whatsapp.com/" target="_blank"><img width="45" height="45" src="https://img.icons8.com/external-tal-revivo-duo-tal-revivo/25/external-whatsapp-messenger-is-a-freeware-cross-platform-messaging-and-voice-over-ip-service-logo-duo-tal-revivo.png" alt="external-whatsapp-messenger-is-a-freeware-cross-platform-messaging-and-voice-over-ip-service-logo-duo-tal-revivo"/><img src="IMG/whatsapp.png" alt="" width="45" height="45"></a><br><br><br>
+    <a href="index.html#inicio">Inicio</a>
+    <h2 id="enlaces-especiales">Enlaces especiales</h2>
+    <a href="mailto:macccielo27879@gmail.com" target="_blank">Enviar correo</a><br>
+    <a href="tel:3834478734">Enlace a teléfono</a><br><br>
+    <h2 id="enlaces-interactivos">Enlaces interactivos</h2>
+    <button onclick="alert('Holaaaa devs!')">Este es un botón</button>
+    <br>
+    <a href="index.html#inicio">Inicio</a>
+    <h2>Audio y video</h2>
+    <audio src="media/Tru-La-La - Detenedla Ya _ ¿Quién Te Crees Tú_ _ Ajena _ Mujer Indecente (128 kbps).mp3" controls></audio>
+    <video src="media/video1456696208.mp4" controls preload="auto" width="85%" poster="IMG/Imagen1.png"></video><br><br>
+    <iframe src="Aprendiendo JSON.pdf" frameborder="1" width="100%" height="400px%"></iframe>
+    <!-- Esto es un comentario -->
+    <h2 id="formularios">Formularios</h2>
+    <h3>Elementos de Formularios</h3>
+    <textarea cols="50" rows="5"></textarea><br><br>
+    <select name="" id="">
+        <option value="">HTML</option>
+        <option value="">CSS</option>
+        <option value="">JS</option>
+    </select><br><br>
+    <select name="" id="" multiple>
+        <option value="">HTML</option>
+        <option value="">CSS</option>
+        <option value="">JS</option>
+    </select>
+    <h3>Atributos dentro de un formulario</h3>
+    <h4>Formulario login</h4>
+    <form action="https://formspree.io/f/mleyzpao" method="POST" target="_blank">
+        <input type="text" name="usuario"><br>
+        <input type="password" name="contraseña"><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+    <form action="https://formsubmit.co/macccielo27879@gmail.com" method="POST">
+        <input type="text" name="name" required>
+        <input type="email" name="email" required>
+        <button type="submit">Send</button>
+   </form>
+    <script src="index.js"></script>
+</body>
+</html>

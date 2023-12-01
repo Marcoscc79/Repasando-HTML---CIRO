@@ -1,3 +1,6 @@
+/* * {
+    margin: 10px;
+} */
 html {
     scroll-behavior: smooth;
 }
@@ -7,16 +10,51 @@ body { /* Este es un estilo general */
 h1 {
     color: cadetblue;
 }
+nav {
+    background: burlywood;
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+a {
+    text-decoration: none;
+    font-weight: 900;
+} 
 .estilo-titulo-principal {
     color: rgb(158, 205, 207);
     background-color: darkgreen;
     text-align: center;
+    padding: 20px;
 }
 h2 {
-    color: brown;
+    color: rgb(48, 165, 42);
 }
-p {
+.encabezado {
+    color: chocolate;
+    text-align: center;
+}
+#texto-basico {
     color: blue;
+}
+/* p {
+    color: blue;
+    color: red;
+    color: green;
+    margin: 50px 100px;
+} */
+.p1 {
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 10px;
+}
+.contenedor-flex {
+    display: flex;
+    
 }
 img {
     max-width: 100%;
@@ -27,4 +65,17 @@ img {
 }
 figcaption {
     text-align: center;
+}
+button {
+    background-color: brown;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+button:hover {
+    background-color: chocolate;
+}
+button:active {
+    background-color: blue;
 }
